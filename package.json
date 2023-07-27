@@ -1,0 +1,19 @@
+{
+  "name": "mortgage-explainer",
+  "version": "1.0.0",
+  "description": "Explains mortgage products in plain English",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "tsc && run-func dist/index.js main"
+  },
+  "author": "Ira Rainey",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "run-func": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.5"
+  }
+}
