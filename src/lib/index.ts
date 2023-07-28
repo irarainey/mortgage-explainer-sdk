@@ -2,18 +2,17 @@ import axios from "axios";
 import { Product } from "../types/product";
 import { OpenAIConfig } from "../types/config";
 
-export class MortgageProductExplainer {
+export class MortgageExplainerSDK {
 	private openAIConfig: OpenAIConfig;
 
 	public constructor(config: OpenAIConfig) {
 		this.openAIConfig = config;
-
 		axios.defaults.baseURL = `https://${config.instance!}.openai.azure.com/openai/deployments/${config.deployment!}/chat`;
 		axios.defaults.headers.common["api-key"] = config.apiKey!;
 		axios.defaults.headers.post["Content-Type"] = "application/json";
 	}
 
-	public async explainMortgageProduct(product: Product): Promise<string> {
+	public async explainProduct(product: Product): Promise<string> {
 		const result = await axios.post(`/completions?api-version=${this.openAIConfig.apiVersion!}`, {
 			messages: [
 				{
