@@ -1,6 +1,6 @@
 # Mortgage Explainer SDK
 
-This is a simple TypeScript SDK which uses Azure OpenAI to generate plain English explanations of mortgage products. It is intended to be used as a reference for how to use the Azure OpenAI API, and as a starting point for building your own SDKs.
+This is a simple TypeScript SDK which uses the [Azure OpenAI service](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview) to generate plain English explanations of mortgage products. It is intended to be used as a reference for how to use the Azure OpenAI API, and as a starting point for building your own SDKs.
 
 To use this SDK, you will need to have an Azure subscription running an Azure OpenAI instance and an OpenAI API key. These details are passed to the SDK in the constructor.
 
