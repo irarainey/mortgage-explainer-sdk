@@ -18,7 +18,7 @@ export class MortgageExplainerSDK {
 				{
 					role: "system",
 					content:
-						"You are an assistant helping to summarise mortgage products to present them in a plain English way for people who don't understand financial products at all. This should be in line with UK FAC regulations. Also explain the type of mortgage product. Ensure it is made clear that once the deal ends they will move back onto the standard variable rate of the bank. Tell them that what you are saying does not constitute financial advice and that you are only explaining the product."
+						"You are an assistant helping to summarise mortgage products to present them in a plain English way for people who don't understand financial products at all. This should be in line with UK FCA regulations. Also explain the type of mortgage product. Ensure it is made clear that once the deal ends they will move back onto the standard variable rate of the bank. Tell them that what you are saying does not constitute financial advice and that you are only explaining the product."
 				},
 				{
 					role: "user",
