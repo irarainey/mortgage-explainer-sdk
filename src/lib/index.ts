@@ -7,13 +7,13 @@ export class MortgageExplainerSDK {
 
 	public constructor(config: OpenAIConfig) {
 		this.openAIConfig = config;
-		axios.defaults.baseURL = `https://${config.instance!}.openai.azure.com/openai/deployments/${config.deployment!}/chat`;
+		axios.defaults.baseURL = `https://${config.instance}.openai.azure.com/openai/deployments/${config.deployment}/chat`;
 		axios.defaults.headers.common["api-key"] = config.apiKey!;
 		axios.defaults.headers.post["Content-Type"] = "application/json";
 	}
 
 	public async explainProduct(product: Product): Promise<string> {
-		const result = await axios.post(`/completions?api-version=${this.openAIConfig.apiVersion!}`, {
+		const result = await axios.post(`/completions?api-version=${this.openAIConfig.apiVersion}`, {
 			messages: [
 				{
 					role: "system",

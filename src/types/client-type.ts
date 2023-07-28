@@ -1,1 +1,1 @@
-export type ClientType = 'remortgage' | 'first time buyer' | 'home mover';
+export type ClientType = "remortgage" | "first time buyer" | "home mover";
