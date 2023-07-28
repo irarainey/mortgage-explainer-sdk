@@ -5,7 +5,7 @@
   "main": "./dist/index.js",
   "scripts": {
     "esbuild-base": "esbuild ./src/index.ts --bundle --outfile=./dist/index.js --format=cjs --platform=node",
-    "build": "npm run esbuild-base -- --sourcemap",
+    "build": "npm run esbuild-base && tsc --emitDeclarationOnly --declaration",
     "lint": "eslint src --ext ts"
   },
   "author": "Ira Rainey",
