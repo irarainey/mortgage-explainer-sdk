@@ -1,10 +1,12 @@
 {
   "name": "mortgage-explainer-sdk",
   "version": "0.0.1",
-  "description": "Explains mortgage products in plain English",
+  "description": "A simple SDK to create plain English descriptions of mortgage products using OpenAI",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "tsc"
+    "esbuild-base": "esbuild ./src/index.ts --bundle --outfile=./dist/index.js --format=cjs --platform=node",
+    "build": "npm run esbuild-base -- --sourcemap",
+    "lint": "eslint src --ext ts"
   },
   "author": "Ira Rainey",
   "license": "MIT",
@@ -12,6 +14,10 @@
     "axios": "^1.4.0"
   },
   "devDependencies": {
-    "@types/node": "^20.4.5"
+    "@types/node": "^20.4.5",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "esbuild": "^0.18.17",
+    "eslint": "^8.45.0"
   }
 }
