@@ -55,12 +55,10 @@ This example calls the `explainProduct` method of the SDK, which returns a promi
 
 The output of the above code should look something like this:
 
-```text
-This is a remortgage product, which means you are switching your existing mortgage product for this one. The initial interest rate is 4.64%, which means that for the first two years of the mortgage, that will be the rate you pay. This mortgage product is a tracker, which means that the interest rate you pay will move up and down in line with a chosen base rate, usually the Bank of England's interest rate. 
-
-The maximum loan to value (LTV) is 75%, which means you can borrow up to 75% of the value of your property. There are no early repayment charges (ERC) if you decide to pay off the mortgage fully or partially earlier than the end of the two-year period. However, if you decide to move to a new mortgage product before this initial two-year period ends, you will be subject to early repayment charges. The arrangement fee for this mortgage product is £999, which you will need to pay when you set up the mortgage. 
-
-It's important to know that after the initial two-year period, you will move onto the standard variable rate of the bank, which may be higher or lower than the initial rate you are paying. It's always a good idea to keep an eye on your mortgage payments and consider switching to a new mortgage product when the initial period ends, to ensure you are getting the best deal for your circumstances. 
-
-I want to highlight that what I've said is only an explanation of the product and does not constitute financial advice. It's always best to speak to a qualified mortgage adviser who can provide tailored advice for your specific situation.
-```
+> This is a remortgage product, which means you are switching your existing mortgage product for this one. The initial interest rate is 4.64%, which means that for the first two years of the mortgage, that will be the rate you pay. This mortgage product is a tracker, which means that the interest rate you pay will move up and down in line with a chosen base rate, usually the Bank of England's interest rate. 
+> 
+> The maximum loan to value (LTV) is 75%, which means you can borrow up to 75% of the value of your property. There are no early repayment charges (ERC) if you decide to pay off the mortgage fully or partially earlier than the end of the two-year period. However, if you decide to move to a new mortgage product before this initial two-year period ends, you will be subject to early repayment charges. The arrangement fee for this mortgage product is £999, which you will need to pay when you set up the mortgage. 
+> 
+> It's important to know that after the initial two-year period, you will move onto the standard variable rate of the bank, which may be higher or lower than the initial rate you are paying. It's always a good idea to keep an eye on your mortgage payments and consider switching to a new mortgage product when the initial period ends, to ensure you are getting the best deal for your circumstances. 
+> 
+> I want to highlight that what I've said is only an explanation of the product and does not constitute financial advice. It's always best to speak to a qualified mortgage adviser who can provide tailored advice for your specific situation.
