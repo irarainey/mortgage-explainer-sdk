@@ -1,6 +1,6 @@
 {
   "name": "mortgage-explainer-sdk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple SDK to create plain English descriptions of mortgage products using OpenAI",
   "main": "./dist/index.js",
   "scripts": {
